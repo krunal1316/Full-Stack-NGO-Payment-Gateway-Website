@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donation Successful</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="success-container">
+    <h1>Thank You!</h1>
+    <p>Your donation was successful.</p>
+    <a href="index.html" class="btn">Return Home</a>
+  </div>
+  <script>
+    // Display session ID from URL
+    const params = new URLSearchParams(window.location.search);
+    console.log('Session ID:', params.get('session_id'));
+  </script>
+</body>
+</html>
